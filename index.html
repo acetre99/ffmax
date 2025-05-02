@@ -23,20 +23,33 @@
       height: auto;
       border-radius: 8px;
     }
+
+       .fixed-button {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  cursor: pointer;
+       }
   </style>
 </head>
 <body>
-
-
-  <div class="video-container">
+<div class="video-container">
     <h2>My Website Video</h2>
     <video controls>
       <source src="asas.mp4" type="video/mp4">
       Aapka browser is video format ko support nahi karta.
     </video>
   </div>
-
-
+    <!-- Fixed Button at the Bottom -->
+  <button class="fixed-button">Aditya Singh 
 </body>
 </html>
 
